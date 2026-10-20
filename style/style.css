@@ -40,10 +40,11 @@ a{
     color: rgb(234, 234, 234);
 }
 .etiqueta{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-bottom: 5px;
-    color: rgb(221, 130, 156);
-    font-size: 13px;
-    letter-spacing: 1px;
+    color: rgb(255, 221, 231);
+    font-size: 20px;
+    letter-spacing: 10px;
 }
 .menu-lista{
     margin: 20px 0 0;
@@ -61,7 +62,41 @@ a{
     display: inline-block;
     padding: 2px ;
     background-color: rgb(234, 234, 234);
-    color:rgb(234, 234, 234) ;
-    border: 1px solid rgb(109, 14, 35);
+    color:rgb(109,14,35) ;
+    border: 1px solid rgb(234, 234, 234);
     border-radius: 5px;
+}
+.secao{
+    padding: 72px 0;
+}
+.titulo-secao{
+    margin-bottom: 32px;
+    padding-left: 12px;
+    border-left: 5px solid rgb(122, 25, 41);
+    border-radius: 5px;
+}
+.grade-cards{
+    display: grid;
+    gap: 24px;
+}
+.card{
+    padding: 24px;
+    background-color: rgb(246, 243, 243);
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgb(137, 101, 113);
+}
+.lista-tecnologia{
+    display: inline-block;
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.lista-tecnologia li{
+    padding: 10px 14px;
+    background-color:rgb(246, 243, 243);
+    display: inline;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 999px;
 }
