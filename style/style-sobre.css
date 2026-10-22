@@ -1,0 +1,24 @@
+.tabela-conhecimentos{
+    width: 100%;
+    border: 3px solid rgb(167, 155, 160);
+    border-collapse:collapse ;
+    background-color: rgb(255, 255, 255);
+}
+.tabela-conhecimentos caption{
+    margin-bottom: 10px;
+
+    font-weight: bold;
+    text-align: left;
+}
+
+.tabela-conhecimentos th,
+.tabela-conhecimentos td{
+    padding: 10px;
+    text-align: left;
+
+    border: 1px solid #cbd5e1;
+}
+.tabela-conhecimentos tfoot{
+    background-color: #c6c6c6;
+    color: rgb(255, 249, 251);
+}
