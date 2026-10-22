@@ -63,11 +63,16 @@ a{
     padding: 2px ;
     background-color: rgb(234, 234, 234);
     color:rgb(109,14,35) ;
-    border: 1px solid rgb(234, 234, 234);
-    border-radius: 5px;
+    border: 1px solid rgb(255, 240, 240);
+    
 }
 .secao{
-    padding: 72px 0;
+    margin: 24px ;
+    padding: 25px ;
+    background-color: rgb(255, 248, 250);
+    border: 1px solid rgb(156, 143, 147);
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgb(137, 52, 89);
 }
 .titulo-secao{
     margin-bottom: 32px;
