@@ -1,6 +1,6 @@
 .tabela-conhecimentos{
     width: 100%;
-    border: 3px solid rgb(167, 155, 160);
+    border: 3px solid rgb(181, 127, 149);
     border-collapse:collapse ;
     background-color: rgb(255, 255, 255);
 }
@@ -23,5 +23,10 @@
     color: rgb(255, 249, 251);
 }
 .secao{
-    padding: 72;
+    margin: 24px ;
+    padding: 25px ;
+    background-color: rgb(255, 248, 250);
+    border: 1px solid rgb(156, 143, 147);
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgb(137, 52, 89);
 }
