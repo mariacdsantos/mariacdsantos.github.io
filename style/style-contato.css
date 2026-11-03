@@ -1,0 +1,44 @@
+.formulario{
+    padding: 25px;
+
+    background-color: rgb(255, 248, 250);
+
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+}
+.formulario fieldset{
+    margin-bottom: 20px;
+    padding: 20px;
+ 
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+}
+.formulario legend{
+    padding: 0 8px;
+
+    color: rgb(88, 57, 62);
+    font-weight: bold;
+}
+.campo-formulario{
+    margin-bottom: 16px;
+}
+ 
+.campo-formulario label{
+    display: block;
+ 
+    margin-bottom: 5px;
+ 
+    font-weight: bold;
+}
+ 
+.campo-formulario input,
+.campo-formulario select,
+.campo-formulario textarea{
+    width: 100%;
+ 
+    padding: 10px;
+ 
+    border: 1px solid ;
+}
+.campo-formulario inpiut
+ 
